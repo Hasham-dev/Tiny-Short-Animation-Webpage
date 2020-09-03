@@ -12,7 +12,7 @@ function App() {
     AOS.init({
       duration:500,
       // delay:500,
-      once: true, // whether animation should happen only once - while scrolling down
+      once: false, // whether animation should happen only once - while scrolling down
 
     });
     AOS.refresh();

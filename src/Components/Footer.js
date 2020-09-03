@@ -20,7 +20,7 @@ function Footer() {
 
     return (
         <div className="Footer-main">
-            <Container maxWidth="Lg">
+            <Container maxWidth="lg">
                 <h4 className='footer-para'>"Pick my brain/cortex and let's get started on your project"</h4>
                 <div className="footer-email">
                     <EmailIcon className="email-icon container" />
