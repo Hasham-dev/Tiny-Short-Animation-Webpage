@@ -23,7 +23,7 @@ function Footer() {
             <Container maxWidth="Lg">
                 <h4 className='footer-para'>"Pick my brain/cortex and let's get started on your project"</h4>
                 <div className="footer-email">
-                    <EmailIcon className="email-icon" />
+                    <EmailIcon className="email-icon container" />
                     <p className="Footer-para">vakanihasham64@gmail.com</p>
                 </div>
             </ Container>

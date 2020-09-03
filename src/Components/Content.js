@@ -26,7 +26,7 @@ function Content() {
                     <Container maxWidth="xl" className='container'>
                         <div className="Main-two">
 
-                            <Grid container spacing={6}>
+                            <Grid container spacing={4}>
                                 <Grid item xs={12} sm={6} data-aos="fade-right"
                                     data-aos-offset="300"
                                     data-aos-easing="ease-in-sine"
