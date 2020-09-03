@@ -1,21 +1,10 @@
 import React from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
-import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
-import useWebAnimations,{flash} from "@wellyshen/use-web-animations";
+import useWebAnimations from "@wellyshen/use-web-animations";
 
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-        flexGrow: 1,
-    },
-    paper: {
-        padding: theme.spacing(2),
-        textAlign: 'center',
-        color: theme.palette.text.secondary,
-    },
-}));
 
 function Header2() {
 
@@ -39,7 +28,6 @@ function Header2() {
     },
     timing:animateTiming})
 
-    const classes = useStyles();
 
     return (
         <div>
